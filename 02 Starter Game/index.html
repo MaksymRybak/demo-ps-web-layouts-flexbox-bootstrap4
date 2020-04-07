@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Game Page</title>
 
@@ -10,19 +11,33 @@
 	<link rel="stylesheet" type="text/css" href="css/game.css">
 
 </head>
+
 <body>
 
 	<!-- Main Container -->
-	<div class="d-flex flex-row">
-		
+	<div class="d-flex flex-row justify-content-around topBar">
+		<div class="py-3">
+			<p class="scoreLabel">SCORE: 0</p>
+		</div>
+		<div class="py-2">
+			<img src="images/SmallLogo.png" alt="" class="img-fluid smallLogo">
+		</div>
+		<div class="py-2">
+			<img src="images/leaderboard.png" alt="" class="leaderboard">
+		</div>
 	</div>
 
 	<!-- Game Board -->
 	<div class="container py-md-3 py-sm-1">
-		
+
 		<!-- Game Board -->
-		
-		
+
+	</div>
+
+	<!-- Copyright -->
+	<div class="d-flex flex-column align-items-center fixed-bottom">
+		<img src="images/carved-rock-logo-white.png" alt="" class="img-fluid">
+		<p class="copyRight">Copyright CarvedRock &copy; 2019</p>
 	</div>
 
 	<!-- Question Modal -->
@@ -36,7 +51,7 @@
 					</button>
 				</div>
 				<div class="modal-body">
-					
+
 				</div>
 			</div>
 		</div>
@@ -119,4 +134,5 @@
 	<script src="js/game.js"></script>
 
 </body>
+
 </html>
